@@ -1,8 +1,12 @@
-public class add{
-    public static void main(String[] args) {
-        int num1 = 10;
-        int num2 = 20;
-        int sum = num1 + num2;
-        System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
-    }
+class Main {
+
+  public static void main(String[] args) {
+    
+    int first = 10;
+    int second = 20;
+
+    // add two numbers
+    int sum = first + second;
+    System.out.println(first + " + " + second + " = "  + sum);
+  }
 }
